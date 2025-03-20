@@ -1,8 +1,7 @@
-# 🤖 Chat with PDF locally using Ollama + LangChain
+# Chat with PDF locally using Ollama + LangChain
 
-A powerful local RAG (Retrieval Augmented Generation) application that lets you chat with your PDF documents using Ollama and LangChain. This project includes both a Jupyter notebook for experimentation and a Streamlit web interface for easy interaction.
+A simple local RAG (Retrieval Augmented Generation) application that lets you chat with your PDF documents using Ollama and LangChain. This project includes both a Jupyter notebook for experimentation and a Streamlit web interface for easy interaction.
 
-[![Python Tests](https://github.com/tonykipkemboi/ollama_pdf_rag/actions/workflows/tests.yml/badge.svg)](https://github.com/tonykipkemboi/ollama_pdf_rag/actions/workflows/tests.yml)
 
 ## Project Structure
 ```
@@ -56,16 +55,13 @@ ollama_pdf_rag/
    chromadb==0.4.22
    ```
 
-### 🎮 Running the Application
+### Running the Application
 
 #### Option 1: Streamlit Interface
 ```bash
 python run.py
 ```
 Then open your browser to `http://localhost:8501`
-
-![Streamlit UI](st_app_ui.png)
-*Streamlit interface showing PDF viewer and chat functionality*
 
 #### Option 2: Jupyter Notebook
 ```bash
